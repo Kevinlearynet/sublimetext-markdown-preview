@@ -797,6 +797,7 @@ class Compiler(object):
             html += self.get_mathjax()
             html += self.get_uml()
             html += self.get_title()
+            html += '<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">';
             html += '</head><body>'
             html += '<article class="markdown-body">'
             html += body
